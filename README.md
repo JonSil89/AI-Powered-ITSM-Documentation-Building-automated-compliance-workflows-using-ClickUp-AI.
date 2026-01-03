@@ -118,18 +118,26 @@ FINAL STATUS: SUCCESS
 --------------------------------------------------
 
 
-🛡️ DevSecOps & Automated Testing
+🛡️ DevSecOps & Automated Testing:
+
 The repository includes automated quality gates to ensure infrastructure and AI components align with high-compliance standards (ISO/MDR) before deployment.
 
-GitHub Actions: Every commit triggers a full audit sweep via compliance-check.yml.
+GitHub Actions: 
+Every commit triggers a full audit sweep via compliance-check.yml.
 
-Policy Guard: Automated validation of ITSM policy updates.
+Policy Guard: 
+Automated validation of ITSM policy updates.
 
-Orchestration Script: orchestrate.sh simulates production-ready validation gates locally.
+Orchestration Script: 
+orchestrate.sh simulates production-ready validation gates locally.
 
-📈 Business Impact
-Efficiency: Automates manual compliance checks, saving up to 40 hours/month of review work.
+📈 Business Impact:
 
-Risk Mitigation: Ensures all ITSM processes are cross-referenced against ISO-27001 standards.
+Efficiency: 
+Automates manual compliance checks, saving up to 40 hours/month of review work.
 
-Scalability: Decoupled architecture allows for easy integration with existing workflows.
+Risk Mitigation: 
+Ensures all ITSM processes are cross-referenced against ISO-27001 standards.
+
+Scalability: 
+Decoupled architecture allows for easy integration with existing workflows.
