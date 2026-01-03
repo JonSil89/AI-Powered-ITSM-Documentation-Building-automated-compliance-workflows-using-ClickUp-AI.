@@ -1,4 +1,4 @@
-[![AI ITSM CI Pipeline](https://github.com/JonSil89/AI-Powered-ITSM-Documentation-Building-automated-compliance-workflows-using-ClickUp-AI./actions/workflows/django.yml/badge.svg)](https://github.com/JonSil89/AI-Powered-ITSM-Documentation-Building-automated-compliance-workflows-using-ClickUp-AI./actions/workflows/django.yml)
+[![AI ITSM Full Stack CI](https://github.com/JonSil89/AI-ITSM-Compliance-Auto/actions/workflows/compliance-check.yml/badge.svg)](https://github.com/JonSil89/AI-ITSM-Compliance-Auto/actions/workflows/compliance-check.yml)
 
 
 # AI-Powered-ITSM-Documentation-Building-automated-compliance-workflows-using-ClickUp-AI.
