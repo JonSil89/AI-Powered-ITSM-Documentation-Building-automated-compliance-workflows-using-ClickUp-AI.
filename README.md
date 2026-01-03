@@ -21,7 +21,7 @@ While the current implementation features a native **ClickUp AI integration**, t
 
 ---
 
-## Quick Start: Run the Compliance Audit
+## Run the Compliance Audit:
 Generate a real-time compliance report on your local machine in seconds.
 
 ```mermaid
