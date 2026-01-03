@@ -87,31 +87,34 @@ Follow these steps to generate a real-time compliance report on your local machi
    ```bash
    git clone [https://github.com/JonSil89/AI-ITSM-Compliance-Auto.git](https://github.com/JonSil89/AI-ITSM-Compliance-Auto.git)
    cd AI-ITSM-Compliance-Auto
-
+## DevSecOps Orchestration
+The repository includes an `orchestrate.sh` script to simulate automated quality gates. This script ensures that the AI-powered documentation and infrastructure components are aligned with high-compliance standards (ISO/MDR) before deployment.
 Bash
 **Run the orchestration:**
 `./orchestrate.sh`
+## Bash
 
-cp .env.example .env
-Run the Orchestrator:
+## cp .env.example .env
 
-Bash
+###Bash
+## 
+`./orchestrate.sh`
+## View the Results:
 
-./orchestrate.sh
-View the Results:
+###Bash
 
-Bash
+ `cat Compliance_Audit_Report.txt`
 
-cat Compliance_Audit_Report.txt
-📊 Example Audit Output
+
+## 📊 Example Audit Output
 When you run the audit, the system generates a Compliance_Audit_Report.txt. Here is what the automated output looks like:
 
 Plaintext
 
 --------------------------------------------------
-ITSM COMPLIANCE AUDIT REPORT
-Generated: 2026-01-03 17:55:30
-Environment: Local-Validation / GitHub Actions
+###ITSM COMPLIANCE AUDIT REPORT
+###Generated: 2026-01-03 17:55:30
+###Environment: Local-Validation / GitHub Actions
 --------------------------------------------------
 ✅ AI Engine: Status Active
 ✅ Compliance Mapping: ISO 27001 (A.12.1.1) - PASSED
