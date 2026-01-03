@@ -82,7 +82,7 @@ The repository includes an `orchestrate.sh` script to simulate automated quality
 
 ## View the Results:
 
-###Bash
+##Bash
 
  `cat Compliance_Audit_Report.txt`
 
