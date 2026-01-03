@@ -78,7 +78,7 @@ Clone the repository:
 
 Bash
 
-`git clone [https://github.com/JonSil89/AI-ITSM-Compliance-Auto.git]`
+`git clone https://github.com/JonSil89/AI-ITSM-Compliance-Auto.git`
 
 `cd AI-ITSM-Compliance-Auto`
 
