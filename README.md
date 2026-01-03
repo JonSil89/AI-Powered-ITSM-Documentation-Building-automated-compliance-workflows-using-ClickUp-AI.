@@ -96,7 +96,9 @@ Bash
 
 `cat Compliance_Audit_Report.txt`
 📊 Example Audit Output
-When you run the audit, the system generates a `Compliance_Audit_Report.txt.`
+
+When you run the audit, the system generates a
+`Compliance_Audit_Report.txt.`
 
 🛡️ DevSecOps & Automated Testing
 The repository includes automated quality gates to ensure infrastructure and AI components align with high-compliance standards (ISO/MDR) before deployment.
