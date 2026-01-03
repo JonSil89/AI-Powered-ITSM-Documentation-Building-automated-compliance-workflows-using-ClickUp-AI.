@@ -53,9 +53,11 @@ The repository includes an `orchestrate.sh` script to simulate automated quality
    ```bash
    git clone [https://github.com/JonSil89/AI-ITSM-Compliance-Auto.git](https://github.com/JonSil89/AI-ITSM-Compliance-Auto.git)
    cd AI-ITSM-Compliance-Auto
----
+
 **Run the orchestration:**
 `./orchestrate.sh`
+
+
 
 ```mermaid
 graph TD
