@@ -27,8 +27,7 @@ The system follows a modular **RAG (Retrieval-Augmented Generation)** pattern de
 
 ---
 
-```
-mermaid
+```mermaid
 graph TD
     A[Raw ITSM Docs / ClickUp API] --> B[ingest_to_vector_db.py]
     B --> C[embeddings_generator.py]
@@ -36,28 +35,35 @@ graph TD
     D --> E[query_engine.py]
     E --> F[Compliance-Aware AI Output]
     
-    subgraph Validation_Layer
+    subgraph Validation Layer
     G[proof-html.yml] -.-> F
     H[auto-assign.yml] -.-> B
-    end
-graph TD
-    subgraph Data_Ingestion
-    DA[Raw ITSM Docs / ClickUp API] --> DB[ingest_to_vector_db.py]
-    end
-
-    subgraph AI_Intelligence_Layer
-    DB --> DC[embeddings_generator.py]
-    DC --> DD[(Vector Database / FAISS)]
-    DD --> DE[RankLSTM Engine]
-    DE --> DF[Contextual Ranking Refinement]
-    end
-    
-    subgraph Operational_Output
-    DF --> DG[Compliance-Aware AI Output]
-    DF --> DH[Live AI-Dashboard / Audit Report]
     end
 ```
 ---
 
+## DevSecOps Orchestration
+The repository includes an `orchestrate.sh` script to simulate automated quality gates. This script ensures that the AI-powered documentation and infrastructure components are aligned with high-compliance standards (ISO/MDR) before deployment.
 
+**Run the orchestration:**
+`./orchestrate.sh`
 
+---
+
+```mermaid
+graph TD
+    subgraph Data_Ingestion
+    A[Raw ITSM Docs / ClickUp API] --> B[ingest_to_vector_db.py]
+    end
+
+    subgraph AI_Intelligence_Layer
+    B --> C[embeddings_generator.py]
+    C --> D[(Vector Database / FAISS)]
+    D --> E[RankLSTM Engine]
+    E --> F[Contextual Ranking Refinement]
+    end
+    
+    subgraph Operational_Output
+    F --> G[Compliance-Aware AI Output]
+    F --> H[Live AI-Dashboard]
+    end
