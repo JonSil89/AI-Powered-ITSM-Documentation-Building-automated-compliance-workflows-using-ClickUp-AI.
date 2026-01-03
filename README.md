@@ -64,11 +64,6 @@ graph TD
     end
 ```
 
-## DevSecOps Orchestration
-The repository includes an `orchestrate.sh` script to simulate automated quality gates. This script ensures that the AI-powered documentation and infrastructure components are aligned with high-compliance standards (ISO/MDR) before deployment.
-
-**Run the orchestration:**
-`./orchestrate.sh`
 
 ## 🚀 Quick Start: Run the Compliance Audit
 Follow these steps to generate a real-time compliance report on your local machine.
@@ -84,7 +79,7 @@ Follow these steps to generate a real-time compliance report on your local machi
    cd AI-ITSM-Compliance-Auto
 ## DevSecOps Orchestration
 The repository includes an `orchestrate.sh` script to simulate automated quality gates. This script ensures that the AI-powered documentation and infrastructure components are aligned with high-compliance standards (ISO/MDR) before deployment.
-Bash
+
 **Run the orchestration:**
 `./orchestrate.sh`
 ## Bash
