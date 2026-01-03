@@ -93,9 +93,9 @@ When you run the audit, the system generates a Compliance_Audit_Report.txt. Here
 Plaintext
 
 --------------------------------------------------
-###ITSM COMPLIANCE AUDIT REPORT
-###Generated: 2026-01-03 17:55:30
-###Environment: Local-Validation / GitHub Actions
+ITSM COMPLIANCE AUDIT REPORT
+Generated: 2026-01-03 17:55:30
+Environment: Local-Validation / GitHub Actions
 --------------------------------------------------
 ✅ AI Engine: Status Active
 ✅ Compliance Mapping: ISO 27001 (A.12.1.1) - PASSED
