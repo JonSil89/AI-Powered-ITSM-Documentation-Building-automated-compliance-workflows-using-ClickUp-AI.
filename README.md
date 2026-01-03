@@ -26,7 +26,9 @@ The system follows a modular **RAG (Retrieval-Augmented Generation)** pattern de
 ### High-Level Logic Flow
 
 ---
-```mermaid
+
+```
+mermaid
 graph TD
     A[Raw ITSM Docs / ClickUp API] --> B[ingest_to_vector_db.py]
     B --> C[embeddings_generator.py]
