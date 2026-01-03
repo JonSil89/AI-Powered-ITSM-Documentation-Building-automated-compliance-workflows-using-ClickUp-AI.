@@ -1,4 +1,3 @@
-
 # 🛡️ AI-ITSM Compliance Auto
 ### Automated Compliance Workflows & AI-Powered Documentation
 
@@ -12,7 +11,7 @@ This project automates **ITSM documentation workflows** and **compliance auditin
 While the current implementation features a native **ClickUp AI integration**, the core engine is **platform-agnostic**. The modular architecture allows for seamless integration with:
 - **ITSM Tools:** Jira, ServiceNow, Zendesk.
 - **Data Sources:** Local markdown repositories, Cloud storage, or custom APIs.
-- **Compliance Frameworks:** Easily adaptable for ISO-27001, GDPR, MDR, or HIPAA.
+- **Compliance Frameworks:** ISO-27001, GDPR, MDR, or HIPAA.
 
 ### 🛡️ Core Capabilities
 - **Automated ISO-27001 Mapping:** Automatically cross-references ITSM actions against international security standards.
@@ -21,43 +20,8 @@ While the current implementation features a native **ClickUp AI integration**, t
 
 ---
 
-```mermaid
-graph TD
-    A[Raw ITSM Docs / ClickUp API] --> B[ingest_to_vector_db.py]
-    B --> C[embeddings_generator.py]
-    C --> D[(Vector Database / FAISS)]
-    D --> E[query_engine.py]
-    E --> F[Compliance-Aware AI Output]
-    
-    subgraph Validation Layer
-    G[proof-html.yml] -.-> F
-    H[auto-assign.yml] -.-> B
-    end
-```
----
-## Quick Start: Run the Compliance Audit
-Follow these steps to generate a real-time compliance report on your local machine. Generate a real-time compliance report on your local machine in seconds.
-
-## DevSecOps Orchestration
-The repository includes an `orchestrate.sh` script to simulate automated quality gates. This script ensures that the AI-powered documentation and infrastructure components are aligned with high-compliance standards (ISO/MDR) before deployment.
-
-**Run the orchestration:**
-`./orchestrate.sh`
-
-### Prerequisites
-- A terminal (Bash/ZSH)
-- Git installed
-
-### Installation & Execution
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/JonSil89/AI-ITSM-Compliance-Auto.git](https://github.com/JonSil89/AI-ITSM-Compliance-Auto.git)
-   cd AI-ITSM-Compliance-Auto
-
-**Run the orchestration:**
-   2. run: `./orchestrate.sh`
-
-
+## 🏗️ Architecture Overview
+The system follows a modular **RAG (Retrieval-Augmented Generation)** pattern designed for high-compliance environments:
 
 ```mermaid
 graph TD
@@ -74,7 +38,12 @@ graph TD
     
     subgraph Operational_Output
     F --> G[Compliance-Aware AI Output]
-    F --> H[Live AI-Dashboard]
+    F --> H[Live AI-Dashboard / Audit Report]
+    end
+
+    subgraph Validation_Layer
+    I[GitHub Actions CI] -.-> G
+    J[Policy Guard] -.-> B
     end
 
     subgraph Validation_Layer
