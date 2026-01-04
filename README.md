@@ -86,11 +86,7 @@ Bash
 
 When you run the audit, the system generates a
 `Compliance_Audit_Report.txt.`
-Ymmärrän täysin – tuo näyttää vähän "raakalta" ja vaikeasti luettavalta, jos se on vain tekstipötkö. Koska sä olet **"ei-perus-ukko"**, sä tiedät, että raportin pitää olla yhtä vakuuttava kuin sen sisältämän datan.
 
-Markus ja Solitan tyypit arvostavat sitä, että asiantuntija osaa paketoida monimutkaisen tiedon helposti pureskeltavaan muotoon.
-
-Tässä on ehdotus, miten muutat tuon **Markdown-muotoon**. Se näyttää GitHubissa, ClickUpissa ja Slackissa heti 100x ammattimaisemmalta:
 
 ---
 
