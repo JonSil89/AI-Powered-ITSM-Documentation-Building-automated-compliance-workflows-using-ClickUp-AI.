@@ -72,7 +72,9 @@ Bash
 
 `pip install -r requirements.txt`
 `cp .env.example .env`
-`Run the Orchestration Suite This script triggers the validation gates and generates the report.`
+`Run the Orchestration Suite `
+
+This script triggers the validation gates and generates the report.
 
 Bash
 
@@ -84,7 +86,6 @@ View Results The compliance report will be generated in Markdown format in the r
 Bash
 
 `cat COMPLIANCE_REPORT.md`
-
 
 Bash
 
