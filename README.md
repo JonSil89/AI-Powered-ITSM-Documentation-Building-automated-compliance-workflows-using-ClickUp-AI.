@@ -64,8 +64,9 @@ Clone the Repository
 
 ## Bash
 
-`git clone https://github.com/JonSil89/AI-ITSM-Compliance-Auto.git
-cd AI-ITSM-Compliance-Auto`
+`git clone https://github.com/JonSil89/AI-ITSM-Compliance-Auto.git`
+
+`cd AI-ITSM-Compliance-Auto`
 
 Initialize the Environment
 
