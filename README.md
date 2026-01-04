@@ -60,28 +60,28 @@ Terminal:
 
 ## Installation & Execution
 
-1. Clone the Repository
+Clone the Repository
 
 ## Bash
 
 `git clone https://github.com/JonSil89/AI-ITSM-Compliance-Auto.git
 cd AI-ITSM-Compliance-Auto`
 
-2. Initialize the Environment
+Initialize the Environment
 
 ## Bash
 
 `pip install -r requirements.txt
 cp .env.example .env`
 
-3. Run the Orchestration Suite Tämä skripti käynnistää validointiportit ja generoi raportin:
+Run the Orchestration Suite Tämä skripti käynnistää validointiportit ja generoi raportin:
 
 ## Bash
 
 `chmod +x orchestrate.sh
 ./orchestrate.sh`
 
-4. View Results
+View Results
 
 ## Bash
 
