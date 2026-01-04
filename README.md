@@ -47,7 +47,8 @@ graph TD
 ```
 
 
-🚀 Quick Start: Run the Compliance Audit
+🚀 Quick Start: 
+Run the Compliance Audit
 Follow these steps to generate a real-time compliance report on your local machine.
 
 Prerequisites
