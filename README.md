@@ -72,15 +72,17 @@ Initialize the Environment
 
 ## Bash
 
-`pip install -r requirements.txt
-cp .env.example .env`
+`pip install -r requirements.txt`
+
+`cp .env.example .env`
 
 Run the Orchestration Suite Tämä skripti käynnistää validointiportit ja generoi raportin:
 
 ## Bash
 
-`chmod +x orchestrate.sh
-./orchestrate.sh`
+`chmod +x orchestrate.sh`
+
+`./orchestrate.sh`
 
 View Results
 
