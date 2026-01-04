@@ -136,4 +136,20 @@ When you run the audit, the system generates a
 
 ---
 
-🛡️ DevSecOps & Automated TestingEnsuring infrastructure and AI alignment with ISO/MDR compliance standards.GitHub Actions Every commit triggers a full audit sweep via compliance-check.yml to prevent regression.Policy Guard Automated validation layer for all ITSM policy updates, ensuring zero-drift compliance.Orchestration Script The orchestrate.sh tool simulates production-ready validation gates locally for faster feedback loops.📈 Business ImpactDriving value through automation and risk management.Key MetricImpactStrategic ValueEfficiency40h/month savedAutomates manual compliance reviews, allowing the team to focus on core dev.Risk MitigationISO-27001 MappingEnsures all ITSM processes are 100% cross-referenced against global standards.ScalabilityDecoupled ArchitectureEasy integration with existing enterprise workflows (ClickUp, Jira, AWS).
+## 🛡️ DevSecOps & Automated Testing
+Ensuring infrastructure and AI alignment with ISO/MDR compliance standards.
+
+* **GitHub Actions:** Every commit triggers a full audit sweep via `compliance-check.yml` to prevent regression.
+* **Policy Guard:** Automated validation layer for all ITSM policy updates, ensuring zero-drift compliance.
+* **Orchestration Script:** The `orchestrate.sh` tool simulates production-ready validation gates locally for faster feedback loops.
+
+
+
+## 📈 Business Impact
+Driving value through automation and risk management.
+
+| Key Metric | Impact | Strategic Value |
+| :--- | :--- | :--- |
+| **Efficiency** | **40h/month saved** | Automates manual compliance reviews, allowing the team to focus on core development. |
+| **Risk Mitigation** | **ISO-27001 Mapping** | Ensures all ITSM processes are 100% cross-referenced against global standards. |
+| **Scalability** | **Decoupled Architecture** | Easy integration with existing enterprise workflows (ClickUp, Jira, AWS). |
