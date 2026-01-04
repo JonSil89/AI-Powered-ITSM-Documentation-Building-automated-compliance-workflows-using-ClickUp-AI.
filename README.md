@@ -84,9 +84,6 @@ Bash
 
 View Results The compliance report will be generated in Markdown format in the root directory
 
-Bash
-
-`cat COMPLIANCE_REPORT.md`
 
 Bash
 
