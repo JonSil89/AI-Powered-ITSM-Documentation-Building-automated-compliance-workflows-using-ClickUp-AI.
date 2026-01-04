@@ -1,0 +1,24 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.10
+    commands:
+      - pip install -r requirements.txt
+      - tf_version="0.15.3"
+      - wget https://releases.hashicorp.com/terraform/${tf_version}/terraform_${tf_version}_linux_amd64.zip
+      - unzip terraform_${tf_version}_linux_amd64.zip
+      - mv terraform /usr/local/bin/
+  build:
+    commands:
+      - cd "$CODEBUILD_SRC_DIR/terraform-manifests"
+      - terraform init -input=false -backend-config=dev.conf
+      - terraform validate
+      - terraform plan -var-file=dev.tfvars
+      - terraform apply -var-file=dev.tfvars -auto-approve
+  post_build:
+    commands:
+      - cd "$CODEBUILD_SRC_DIR"
+      - echo "Starting Automated Infrastructure Smoke Tests..."
+      - pytest tests/smoke/test_infra.py --junitxml=test-results.xml
